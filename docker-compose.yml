@@ -3,7 +3,7 @@ services:
     container_name: tender_ui_test
     build:
       context: ../  # Project repo folder
-      dockerfile: ../dockerjenkins/Dockerfile
+      dockerfile: ./dockerjenkins/Dockerfile
 
     image: datastackdevops/tender_ui:0.0.81
 
