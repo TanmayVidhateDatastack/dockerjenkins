@@ -2,7 +2,7 @@ services:
   tender_ui:
     container_name: tender_ui_test
     build:
-      context: .
+      context: ../TenderUI
       dockerfile: Dockerfile
 
     image: datastackdevops/tender_ui:0.0.81
