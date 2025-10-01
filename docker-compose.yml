@@ -1,0 +1,12 @@
+    container_name: tender_ui
+    build:
+      context: .
+      dockerfile: Dockerfile
+
+    image: datastackdevops/tender_ui:0.0.81
+
+    ports:
+      - 7003:3000
+    volumes:
+      - ./logs:/app\logs:rw
+	  
