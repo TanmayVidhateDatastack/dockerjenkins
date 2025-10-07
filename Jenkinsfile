@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        COMPOSE_FILE = "tenderdemo/docker-compose.yml"
+        COMPOSE_FILE = "docker-compose.yml"
         IMAGE_NAME   = "datastackdevops/tender_ui"
     }
 
